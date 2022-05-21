@@ -12,7 +12,7 @@ body a{
 }
 
 .main-body{
-    background: url(/img/hero-bg.jpg) no-repeat;
+    background: url(./img/hero-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
