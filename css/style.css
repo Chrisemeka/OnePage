@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/font/Poppins/Poppins-Regular.ttf);
+}
+
+body{
+    font-family: Poppins;   
+}
+
+body a{
+    text-decoration: none;
+}
+
+.main-body{
+    background: url(/img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#card{
+    padding: 60px 0 100px 0;
+}
+
+.about h3{
+    text-transform: uppercase;
+    color: #124265;
+}
+
+ul li{
+    list-style: none;
+    color: #444444;
+    padding-bottom: 7px;
+}
+
+.fa-check-double{
+    color: #2487ce;
+}
+
+#count-section{
+    background-color: #f8fbfe;
+    margin-top: 50px;
+}
+
+.count-box{
+    padding: 50px 0;
+}
+
+.count-box h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #124265;
+}
+.count-box p{
+    padding: 8px 0 0 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e6ca6;
+}
+
+.video-section{
+    padding-top: 100px;
+}
+
+#client-section{
+    background-color: #f8fbfe;
+    margin-top: 70px;
+    padding: 20px 0 15px 0;
+}
+#client-section img{
+    max-width: 50%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+}
+#client-section img:hover{
+    transform: scale(1.15);
+    filter: grayscale(0);
+}
+
+#testimonial-section{
+    padding-top: 100px;
+}
+
+#testimonial-section h3{
+    color: #124265;
+}
+
+#testimonial-section .testimony-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#testimonial-section .testimony{
+    background: #c3d6e4c0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 320px) {
+    #client-section img{
+        max-width: 25%;
+        padding-bottom: 20px;
+    }   
+}
+@media screen and (max-width: 768px) {
+    #client-section img{
+        max-width: 30%;
+        padding-bottom: 20px;
+    }   
+}
+
+#service-section{
+    padding-top: 100px;
+    background-color: #f8fbfe;
+    margin-bottom: 100px;
+}
+
+#service-section a{
+    color: #47aeff !important;
+}
+
+.card-image{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    transition: all ease-in-out 0.3s;
+}
+
+.card-image svg{
+    position: absolute;
+    top: 4;
+    left: 0;
+    z-index: 2;
+}
+
+.card-image svg path{
+    transition: .5s;
+}
+.card-image i{
+    z-index: 10;
+    font-size: 36px;
+    color: #47aeff;
+}
+
+.service-card{
+    transition: all ease-in-out .3s;
+    padding: 70px 0 80px 0;
+}
+
+.service-card:hover{
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%)
+}
+
+.service-card:hover .icon-blue path{
+    fill: #47aeff;
+}
+
+.service-card:hover i {
+    color: #fff;
+}
+
+#call-to-action {
+    background-color: #2487ce;
+    color: #fff;
+}
+
+#call-to-action .btn-outline-primary{
+    color: #fff;
+    border-color: #fff;
+}
+
+#call-to-action .btn-outline-primary:hover{
+    color: #0d6efd;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+#portfolio h2{
+    color: #124265;
+}
+
+#portfolio .portfolio-info{
+    display: none;
+}
+
+#team{
+    background-color: #f8fbfe;
+}
+
+#team .card-body{
+    padding: 6px 10px;
+}
+
+#team .card-body h5{
+    color: #124265;
+}
+
+#team .card .card-footer a{
+    margin: 0 6px;
+}
+
+#team .card .card-footer .bi-twitter{
+    color: #124265;
+    font-size: 18px;
+}
+#team .card .card-footer .bi-facebook{
+    color: #124265;
+    font-size: 18px;
+}
+#team .card .card-footer .bi-instagram{
+    color: #124265;
+    font-size: 18px;
+}
+#team .card .card-footer .bi-linkedin{
+    color: #124265;
+    font-size: 18px;
+}
